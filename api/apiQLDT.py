@@ -19,6 +19,26 @@ class ApiQLDT:
         self.listCourse = []
         self.listCourseRegistration = []
 
+    def initCourseRegistration(self):
+        print(f"{Fore.LIGHTCYAN_EX}Đang khởi tạo...                    ", end='\r')
+        try:
+            self.session.headers.update({'Content-Type': 'application/json'})
+            self.session.post(
+                self.host + '/dkmh/w-checkvaliddangkymonhoc', timeout=60)
+            data = {"ma_sv": self.username}
+            self.session.post(
+                self.host + '/sms/w-locketquaduyetsinhvien', json=data, timeout=60)
+            data = {"ma_sinh_vien": self.username, "is_cam_xem_dkmh": True}
+            self.session.post(
+                self.host + 'srm/w-kiemtrasettinghoanthanhdg', json=data, timeout=60)
+            self.session.post(
+                self.host + '/api/dkmh/w-locdsdieukienloc', timeout=60)
+            print(f"{Fore.GREEN}Khởi tạo thành công")
+            return True
+        except Exception:
+            print(f"{Fore.RED}Khởi tạo thất bại, tiến hành thử lại", end='\r')
+            return False
+
     def login(self):
         dataLogin = {
             'username': self.username,
@@ -81,6 +101,8 @@ class ApiQLDT:
             return False
 
     def getCourseRegistration(self, index):
+        while self.initCourseRegistration():
+            break
         print(f"[{index}] {Fore.LIGHTCYAN_EX}Đang lấy danh sách môn học", end='\r')
         data = {
             "is_CVHT": False,
