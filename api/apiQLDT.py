@@ -27,7 +27,7 @@ class ApiQLDT:
         }
         print(f"{Fore.LIGHTCYAN_EX}Đang đăng nhập", end='\r')
         response = self.session.post(
-            self.host + '/auth/login', data=dataLogin).json()
+            self.host + '/auth/login', data=dataLogin, timeout=60).json()
         try:
             if response['code'] == '200':
                 self.session.headers.update({
@@ -55,12 +55,12 @@ class ApiQLDT:
         self.session.headers.update({'Content-Type': 'application/json'})
         try:
             response = self.session.post(
-                self.host + '/dkmh/w-xulydkmhsinhvien', json=data).json()
+                self.host + '/dkmh/w-xulydkmhsinhvien', json=data, timeout=60).json()
             try:
                 if self.checkExpired(response):
                     return False
                 if response['code'] == 200:
-                    time = datetime.now().strftime("%d/%m/%Y %H:%M:%S")
+                    time = datetime.now().strftime("%H:%M:%S")
                     print(time, end=' ')
                     if response['data']['is_thanh_cong']:
                         dt_object = datetime.fromisoformat(
@@ -77,7 +77,7 @@ class ApiQLDT:
             except Exception as e:
                 writeLog(e, response)
             return True
-        except Exception as e:
+        except Exception:
             return False
 
     def getCourseRegistration(self, index):
@@ -95,7 +95,7 @@ class ApiQLDT:
 
         self.session.headers.update({'Content-Type': 'application/json'})
         response = self.session.post(
-            self.host + '/dkmh/w-locdsnhomto', json=data).json()
+            self.host + '/dkmh/w-locdsnhomto', json=data, timeout=60).json()
         if self.checkExpired(response):
             return False
         if response['code'] == 200:
@@ -104,8 +104,6 @@ class ApiQLDT:
 
     def handleCourseRegistration(self, index):
         data = self.getCourseRegistration(index)
-        with open('data.json', 'w') as file:
-            json.dump(data, file, indent=2)
 
         if data == False:
             return False
@@ -119,6 +117,7 @@ class ApiQLDT:
             className = nhom_to['lop']
             group = nhom_to['nhom_to']
             team = nhom_to['to']
+            remainingAmount = nhom_to['sl_cl']
             nameCourse = ''
 
             for mon_hoc in ds_mon_hoc:
@@ -127,7 +126,7 @@ class ApiQLDT:
                     break
 
             self.listCourse.append(
-                Course(id_to_hoc, idCourse, nameCourse, group, team, className))
+                Course(id_to_hoc, idCourse, nameCourse, group, team, className, remainingAmount))
         return True
 
     def getCourseRegistrationSuccess(self, index):
@@ -140,7 +139,7 @@ class ApiQLDT:
         self.session.headers.update({'Content-Type': 'application/json'})
         try:
             response = self.session.post(
-                self.host + '/dkmh/w-locdskqdkmhsinhvien', json=data).json()
+                self.host + '/dkmh/w-locdskqdkmhsinhvien', json=data, timeout=60).json()
             if self.checkExpired(response):
                 return False
             if response['code'] == 200:
