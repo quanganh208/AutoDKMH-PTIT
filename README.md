@@ -33,6 +33,7 @@
   - **Định dạng**: Mã MH|Nhóm|Tổ|Lớp. _Ví dụ: ABC1234|01|01|D22-001_
   - Nếu môn học không có mã tổ hãy bỏ trống. _Ví dụ: ABC1234|01||D22-001_
   - Mỗi môn học tồn tại trên 1 dòng, mỗi dòng định dạng như trên. _Lưu ý: Hãy chắc chắn rằng 4 dữ liệu trên của môn học khớp với dữ liệu môn học ở trên web._
+  - Tool sẽ đăng ký lần lượt các môn học theo thứ tự từ trên xuống dưới, vì thế môn nào quan trọng hãy để lên đầu nhé.
 - _Lưu ý: Thiếu bất cứ file nào sẽ dẫn đến lỗi, đừng xóa lung tung nhé =)))._
 
 ### Using Tool
