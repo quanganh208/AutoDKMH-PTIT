@@ -11,7 +11,7 @@
 
 ### Installation
 
-- Chỉ đơn giản là clone git này về. Rảnh tay thì download tay cũng được =))))
+- Chỉ đơn giản là clone git này về. Rảnh thì download tay cũng được =))))
 
 ### Config
 
@@ -24,6 +24,7 @@
 
   - _autoRegisterCourse_: Bật/tắt tính năng tự động đăng ký môn học.
   - _autoRegisterCourseOutOfSlot_: Bật/tắt tính năng tự động canh môn học hết slot.
+  - _showCourseRegistrationSuccess_: Bật/tắt tính năng xem danh sách môn học đã đăng ký thành công.
   - _timeDelayRandom_: Thời gian delay ngẫu nhiên khi canh slot môn học hết slot. Đơn vị _timeDelayRandom_: giây. Tool sẽ random delay từ 1 đến _timeDelayRandom_.
   - _Với tính năng bật/tắt, bật = true, tắt = false._
 
