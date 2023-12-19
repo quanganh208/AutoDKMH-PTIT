@@ -11,14 +11,14 @@
 
 ### Installation
 
-- Chỉ đơn giản là clone git này về. Rảnh thì download tay cũng được =))))
+- Chỉ đơn giản là clone git này về. Rảnh thì download tay cũng được =)))).
 
 ### Config
 
 - File **account.json**: Thay đổi thông tin tài khoản qldt PTIT.
 
-  - _username_: Mã sinh viên của bạn
-  - _password_: Mật khẩu qldt của bạn
+  - _username_: Mã sinh viên của bạn.
+  - _password_: Mật khẩu qldt của bạn.
 
 - File **config.json**: Thay đổi config cho tool.
 
@@ -28,17 +28,17 @@
   - _timeDelayRandom_: Thời gian delay ngẫu nhiên khi canh slot môn học hết slot. Đơn vị _timeDelayRandom_: giây. Tool sẽ random delay từ 1 đến _timeDelayRandom_.
   - _Với tính năng bật/tắt, bật = true, tắt = false._
 
-- File **danh_sach_mon_hoc.txt**: Danh sách môn học cần đăng ký
+- File **danh_sach_mon_hoc.txt**: Danh sách môn học cần đăng ký.
   - File này rất quan trọng, liên quan đến sự sống còn của bạn trong kì tới.
   - **Định dạng**: Mã MH|Nhóm|Tổ|Lớp. _Ví dụ: ABC1234|01|01|D22-001_
   - Nếu môn học không có mã tổ hãy bỏ trống. _Ví dụ: ABC1234|01||D22-001_
   - Mỗi môn học tồn tại trên 1 dòng, mỗi dòng định dạng như trên. _Lưu ý: Hãy chắc chắn rằng 4 dữ liệu trên của môn học khớp với dữ liệu môn học ở trên web._
-- _Lưu ý: Thiếu bất cứ file nào sẽ dẫn đến lỗi, đừng xóa lung tung nhé =)))_
+- _Lưu ý: Thiếu bất cứ file nào sẽ dẫn đến lỗi, đừng xóa lung tung nhé =)))._
 
 ### Using Tool
 
 - Mở file **AutoDKMK-PTIT.exe** tool sẽ tự động đăng nhập qldt PTIT. Tiếp theo như nào thử đi là biết.
-- Thao tác rất đơn giản, chỉ cần nhấn mỗi phím ENTER thôi =))
+- Thao tác rất đơn giản, chỉ cần nhấn mỗi phím ENTER thôi =)).
 
 ### Donation
 
