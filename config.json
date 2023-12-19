@@ -1,3 +1,5 @@
 {
+  "autoRegisterCourse": true,
+  "autoRegisterCourseOutOfSlot": true,
   "timeDelayRandom": 3
 }
