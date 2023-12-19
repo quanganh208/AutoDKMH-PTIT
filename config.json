@@ -1,5 +1,6 @@
 {
   "autoRegisterCourse": true,
   "autoRegisterCourseOutOfSlot": true,
+  "showCourseRegistrationSuccess": true,
   "timeDelayRandom": 3
 }
