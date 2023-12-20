@@ -2,12 +2,12 @@
 
 @Author: [quanganh208](https://github.com/quanganh208)
 
-@Version: 1.0.1
+@Version: 1.0.2
 
 ### Description
 
 - Hỗ trợ đăng ký môn học trên qldt. Chấp web trắng tinh vẫn đăng ký được môn.
-- Hỗ trợ canh slot môn học được nhả. Tool giúp bạn canh slot 24/24, tự động đăng ký môn mà không cần phải ngồi canh nữa.
+- Hỗ trợ canh slot môn học được nhả. Tool giúp bạn canh slot 24/24, tự động đăng ký môn mà không cần phải ngồi canh.
 
 ### Installation
 
@@ -22,11 +22,21 @@
 
 - File **config.json**: Thay đổi config cho tool.
 
+  - _checkCourse_: Bật/tắt tính năng check list môn học trong file danh_sach_mon_hoc.txt có tồn tại với dữ liệu trên web qldt hay không. Hiển thị slot đăng ký còn lại của môn học đó.
   - _autoRegisterCourse_: Bật/tắt tính năng tự động đăng ký môn học.
   - _autoRegisterCourseOutOfSlot_: Bật/tắt tính năng tự động canh môn học hết slot.
-  - _showCourseRegistrationSuccess_: Bật/tắt tính năng xem danh sách môn học đã đăng ký thành công.
-  - _timeDelayRandom_: Thời gian delay ngẫu nhiên khi canh slot môn học hết slot. Đơn vị _timeDelayRandom_: giây. Tool sẽ random delay từ 1 đến _timeDelayRandom_.
-  - _Với tính năng bật/tắt, bật = true, tắt = false._
+  - _showCourseRegistrationSuccess_:
+    - _enable_: Bật/tắt tính năng xem danh sách môn học đã đăng ký thành công.
+    - _timeDelayRandom_: Thời gian delay ngẫu nhiên khi canh slot môn học hết slot. Đơn vị _timeDelayRandom_: giây. Tool sẽ random delay từ 1 đến _timeDelayRandom_.
+  - _changePassword_:
+
+    - _enable_: Bật/tắt tính năng thay đổi mật khẩu tài khoản qldt PTIT.
+    - _changePasswordRandom_: Bật/tắt tính năng tạo ngẫu nhiên mật khẩu mới. Nếu bạn tắt, hãy nhập mật khẩu mới. _Lưu ý: Mật khẩu mới sẽ được chọn ngẫu nhiên từ kí tự chữ in hoa và in thường hoặc kí tự số._
+    - _lengthPasswordRandom_: Độ dài mật khẩu mới nếu bạn bật tính năng tạo mật khẩu ngẫu nhiên.
+
+  - _logout_: Bật/tắt tính năng đăng xuất trước khi kết thúc chương trình.
+
+  - _Với tính năng có thể bật/tắt, bật = true, tắt = false._
 
 - File **danh_sach_mon_hoc.txt**: Danh sách môn học cần đăng ký.
   - File này rất quan trọng, liên quan đến sự sống còn của bạn trong kì tới.
