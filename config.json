@@ -1,14 +1,14 @@
 {
-  "checkCourse": false,
-  "autoRegisterCourse": false,
+  "checkCourse": true,
+  "autoRegisterCourse": true,
   "showCourseRegistrationSuccess": true,
   "autoRegisterCourseOutOfSlot": {
-    "enable": false,
+    "enable": true,
     "timeDelayRandom": 3
   },
   "changePassword": {
-    "enable": false,
-    "changePasswordRandom": false,
+    "enable": true,
+    "changePasswordRandom": true,
     "lengthPasswordRandom": 15
   },
   "logout": true
