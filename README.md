@@ -57,7 +57,7 @@
 
 - Donate tiền cho Quanh mua mì tôm tại:
 
-<img src="https://scontent.fhan5-8.fna.fbcdn.net/v/t1.15752-9/387519503_1014386016510688_7126056876433079552_n.png?_nc_cat=106&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeHa5RnlFFdkDuMhQILD-2GUpyKtxJnncrKnIq3Emedysg5aJYMQa3JdyQFwhowFB5sxBb2QWhzriK-aqNwf9ATQ&_nc_ohc=vEHcliKsf0EAX8c5o5f&_nc_ht=scontent.fhan5-8.fna&oh=03_AdRg1Xp_Nw9oCc7AzZ7hpEOQWSauT5RqSDeQod4qGwL1xA&oe=65C34AEA" alt="208046789 MB Bank NGUYEN MAC QUANG ANH" title= "QR Donate for Quanh" width="170" height="220">
+<img src="https://i.ibb.co/Z6wj1hg/387519503-1014386016510688-7126056876433079552-n.png" alt="208046789 MB Bank NGUYEN MAC QUANG ANH" title= "QR Donate for Quanh" width="170" height="220">
 
 ### Contact
 
