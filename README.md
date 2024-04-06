@@ -4,7 +4,7 @@
 
 @Version: 1.0.4
 
-<img src="https://i.ibb.co/gTbdgLK/410537512-820587226535305-1734187980565846-n.png" alt="Example" title= "Example" width="674" height="532">
+<img src="https://i.postimg.cc/59TMKSNj/example.png)](https://postimg.cc/mhYqtM9G" alt="Example" title= "Example" width="674" height="532">
 
 ### Description
 
