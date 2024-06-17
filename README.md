@@ -24,14 +24,13 @@
 
 - File **config.json**: Thay đổi config cho tool.
 
-  - _checkCourse_: Bật/tắt tính năng check list môn học trong file danh_sach_mon_hoc.txt có tồn tại với dữ liệu trên web qldt hay không. Hiển thị slot đăng ký còn lại của môn học đó.
+  - _checkCourse_: Bật/tắt tính năng check list môn học trong file **danh_sach_mon_hoc.txt** có tồn tại với dữ liệu trên web qldt hay không. Hiển thị slot đăng ký còn lại của môn học đó.
   - _autoRegisterCourse_: Bật/tắt tính năng tự động đăng ký môn học.
-  - _autoRegisterCourseOutOfSlot_: Bật/tắt tính năng tự động canh môn học hết slot.
-  - _showCourseRegistrationSuccess_:
-    - _enable_: Bật/tắt tính năng xem danh sách môn học đã đăng ký thành công.
+  - _showCourseRegistrationSuccess_: Bật/tắt tính năng xem danh sách môn học đã đăng ký thành công.
+  - _autoRegisterCourseOutOfSlot_:
+    - _enable_: Bật/tắt tính năng tự động canh môn học hết slot.
     - _timeDelayRandom_: Thời gian delay ngẫu nhiên khi canh slot môn học hết slot. Đơn vị _timeDelayRandom_: giây. Tool sẽ random delay từ 1 đến _timeDelayRandom_.
   - _changePassword_:
-
     - _enable_: Bật/tắt tính năng thay đổi mật khẩu tài khoản qldt PTIT.
     - _changePasswordRandom_: Bật/tắt tính năng tạo ngẫu nhiên mật khẩu mới. Nếu bạn tắt, hãy nhập mật khẩu mới. _Lưu ý: Mật khẩu mới sẽ được chọn ngẫu nhiên từ kí tự chữ in hoa và in thường hoặc kí tự số._
     - _lengthPasswordRandom_: Độ dài mật khẩu mới nếu bạn bật tính năng tạo mật khẩu ngẫu nhiên.
