@@ -2,9 +2,9 @@
 
 @Author: [quanganh208](https://github.com/quanganh208)
 
-@Version: 1.0.4
+@Version: 1.0.5
 
-<img src="https://scontent.fhan5-8.fna.fbcdn.net/v/t1.15752-9/411928213_865381601726981_8702602363849540887_n.png?_nc_cat=108&ccb=1-7&_nc_sid=8cd0a2&_nc_ohc=qiSIsy7nLqYAX9dRmxw&_nc_ht=scontent.fhan5-8.fna&oh=03_AdQX-WpYidYYQFAv_ZS5fGfBf6Njeg8YkSuHGGDq2Tjwug&oe=65B37BBC" alt="Example" title= "Example" width="674" height="532">
+<img src="https://i.ibb.co/M6BZMQv/image.png" alt="Example" title= "Example" width="674" height="532">
 
 ### Description
 
@@ -14,6 +14,13 @@
 ### Installation
 
 - Chỉ đơn giản là clone git này về. Rảnh thì download tay cũng được =)))).
+
+- Cấp quyền truy cập tool tại đây: [Link bot telegram](https://t.me/payment_for_Quanh_bot)
+
+### Using Tool
+
+- Mở file **AutoDKMK-PTIT.exe** tool sẽ tự động đăng nhập qldt PTIT. Tiếp theo như nào thử đi là biết.
+- Thao tác rất đơn giản, chỉ cần nhấn mỗi phím ENTER thôi =)).
 
 ### Config
 
@@ -47,17 +54,6 @@
   - Mỗi môn học tồn tại trên 1 dòng, mỗi dòng định dạng như trên. _Lưu ý: Hãy chắc chắn rằng 4 dữ liệu trên của môn học khớp với dữ liệu môn học ở trên web._
   - Tool sẽ đăng ký lần lượt các môn học theo thứ tự từ trên xuống dưới, vì thế môn nào quan trọng hãy để lên đầu nhé.
 - _Lưu ý: Thiếu bất cứ file nào sẽ dẫn đến lỗi, đừng xóa lung tung nhé =)))._
-
-### Using Tool
-
-- Mở file **AutoDKMK-PTIT.exe** tool sẽ tự động đăng nhập qldt PTIT. Tiếp theo như nào thử đi là biết.
-- Thao tác rất đơn giản, chỉ cần nhấn mỗi phím ENTER thôi =)).
-
-### Donation
-
-- Donate tiền cho Quanh mua mì tôm tại:
-
-<img src="https://i.ibb.co/Z6wj1hg/387519503-1014386016510688-7126056876433079552-n.png" alt="208046789 MB Bank NGUYEN MAC QUANG ANH" title= "QR Donate for Quanh" width="170" height="220">
 
 ### Contact
 
