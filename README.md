@@ -6,4 +6,4 @@
 
 Từ phiên bản 2.0 đã có tool phiên bản web cho người dùng dễ dàng sử dụng hơn.
 
-Truy cập website: https://dkmh.quanganh.me/ để sử dụng.
+Truy cập website: https://dkmh.pgopoint.io.vn để sử dụng.
